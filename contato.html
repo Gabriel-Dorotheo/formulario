@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário | Meu site</title>
+    <link rel="stylesheet" href="style/estilo.css">
+</head>
+<body>
+    <h1 class="titulosite">Formulário</h1>
+
+    <ol class="listamenu">
+        <li><a href="index.html" target="_blank">Quem somos?</a></li>
+        <li><a href="contato.html" target="_blank">Formulário</a></li>
+        <li><a href="sobre.html" target="_blank">Contato</a></li>
+      </ol>
+
+      <section class="form" style="display: inline-block;">
+        <p>
+            <label>Nome</label>
+            <p><input type="text" name="Nome" id="nome" placeholder="Digite seu nome..."></p>
+             
+        </p>
+
+        <p>
+            <label>Sexo</label>
+            <p><input type="radio" name="sexo" class="sexo" id="masc"><label for="masc">Masculino</label></p>
+            <p><input type="radio" name="sexo" class="sexo" id="fem"><label for="fem">Feminino</label></p>
+            <p><input type="radio" name="sexo" class="sexo" id="outr"><label for="out">Outros</label></p>
+        </p>
+
+        <p>
+            <label>Email</label>
+            <p> <input type="text" name="Email" id="email" placeholder="Digite seu E-mail..."></p>
+           
+        </p>
+
+        <p>
+            <label>Data de nascimento</label>
+            <p><input type="date"></p>
+            
+        </p>
+
+        <P>
+            <label>Senha</label>
+            <p>
+                <input type="password" name="senha" id="password">
+            </p>
+        </P>
+        <P>
+            <label>Repetir senha</label>
+            <p>
+                <input type="password" name="senha" id="password">
+            </p>
+        </P>
+
+        <p>
+            <label>Departamento</label>
+            <p>  
+                <select name="select">
+                    <option value="adm">Administrativo</option>
+                    <option value="jur">Jurídico</option>
+                    <option value="pro">Produção</option>
+                </select>
+            </p>
+
+        </p>
+
+        <p>
+            <label>Justificativa da aplicação</label>
+            <p><textarea cols="40">Escreva aqui seus comentários sobre nosso curso de HTML & CSS</textarea></p>
+        </p>
+      </section>
+
+</body>
+</html>

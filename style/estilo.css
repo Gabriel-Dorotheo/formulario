@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+body{
+    background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/1407/blue_abstract-design_HD_wallpaper_1920x1080.jpg);
+    color: White;
+    font-family: 'Noto Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-origin: border-box;
+
+}
+.titulosite{
+    text-align:center;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    font-size: 50px;
+
+    
+}
+.listamenu{
+    display: flex;
+    padding: 10px;
+    justify-content:space-around;
+    border-radius: 10px;
+    border-style:solid;
+    background-image: url(https://static.videezy.com/system/resources/thumbnails/000/041/719/original/01.jpg);
+    list-style: none;
+    background-attachment: fixed;
+
+}
+
+.form{
+    background-color: red;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 730px;
+    padding: 20px 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+
+}
+
